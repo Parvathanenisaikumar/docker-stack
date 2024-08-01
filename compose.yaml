@@ -1,0 +1,21 @@
+---
+version: "3"
+services:
+  game:
+    image: shaikmustafa/mygame
+    ports:
+      - "2000:80"
+  cycle:
+    image: shaikmustafa/cycle
+    ports:
+      - "2001:80"
+  dm:
+    image: shaikmustafa/dm
+    ports:
+      - "2002:80"
+  login:
+    image: parvathanenisaikumar/mycont:myimg
+    ports: 
+      - "2003:80"
+
+...
